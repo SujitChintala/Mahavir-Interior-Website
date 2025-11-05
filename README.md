@@ -2,7 +2,7 @@
 
 🔗 **[View Live Website](https://68c975b6e2144d13ef80a797--mahavirinterior.netlify.app/)**
 
-A professional, fully responsive website for Mahavir Interior - a real interior design business currently **deployed in Netlify**. This website is actively maintained and updated with real business data.
+A modern, fully responsive website built for **Mahavir Interior**, a real interior design business. The website is **deployed on Netlify** and actively maintained with real business data and updates.
 
 ## 📌 About This Project
 
