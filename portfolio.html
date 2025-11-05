@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Mahavir Interior</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Mahavir Interior</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link active">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Portfolio</h1>
+            <p>Explore our stunning collection of transformed spaces that showcase our design excellence</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="page-content">
+        <div class="container">
+            <!-- Portfolio Filter -->
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <div style="display: inline-flex; gap: 1rem; background: var(--bg-light); padding: 0.5rem; border-radius: var(--border-radius);">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="residential">Residential</button>
+                    <button class="filter-btn" data-filter="commercial">Commercial</button>
+                    <button class="filter-btn" data-filter="renovation">Renovation</button>
+                </div>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid">
+                <!-- Residential Projects -->
+                <div class="portfolio-item" data-category="residential">
+                    <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="portfolio-content">
+                        <h3>Modern Living Room</h3>
+                        <p>Contemporary design with clean lines and warm textures for a young family in Bandra.</p>
+                        <div style="margin-top: 1rem; color: var(--primary-color); font-size: 0.9rem;">
+                            <i class="fas fa-map-marker-alt"></i> Bandra, Mumbai | <i class="fas fa-calendar"></i> 2024
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="residential">
+                    <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1615529162924-f8605388461d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="portfolio-content">
+                        <h3>Luxury Master Bedroom</h3>
+                        <p>Elegant and serene bedroom design featuring custom furniture and sophisticated lighting.</p>
+                        <div style="margin-top: 1rem; color: var(--primary-color); font-size: 0.9rem;">
+                            <i class="fas fa-map-marker-alt"></i> Juhu, Mumbai | <i class="fas fa-calendar"></i> 2024
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="residential renovation">
+                    <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1556909114-4f6e3bb3a4e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="portfolio-content">
+                        <h3>Modern Kitchen Renovation</h3>
+                        <p>Complete kitchen transformation with smart storage solutions and premium appliances.</p>
+                        <div style="margin-top: 1rem; color: var(--primary-color); font-size: 0.9rem;">
+                            <i class="fas fa-map-marker-alt"></i> Powai, Mumbai | <i class="fas fa-calendar"></i> 2023
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Commercial Projects -->
+                <div class="portfolio-item" data-category="commercial">
+                    <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="portfolio-content">
+                        <h3>Corporate Office Design</h3>
+                        <p>Professional workspace design that promotes collaboration and productivity for a tech startup.</p>
+                        <div style="margin-top: 1rem; color: var(--primary-color); font-size: 0.9rem;">
+                            <i class="fas fa-map-marker-alt"></i> BKC, Mumbai | <i class="fas fa-calendar"></i> 2024
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="commercial">
+                    <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1555963892-711cb65c2e43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="portfolio-content">
+                        <h3>Boutique Restaurant</h3>
+                        <p>Warm and inviting restaurant interior that creates the perfect dining atmosphere.</p>
+                        <div style="margin-top: 1rem; color: var(--primary-color); font-size: 0.9rem;">
+                            <i class="fas fa-map-marker-alt"></i> Colaba, Mumbai | <i class="fas fa-calendar"></i> 2023
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="commercial">
+                    <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="portfolio-content">
+                        <h3>Retail Showroom</h3>
+                        <p>Elegant showroom design that showcases products beautifully while ensuring smooth customer flow.</p>
+                        <div style="margin-top: 1rem; color: var(--primary-color); font-size: 0.9rem;">
+                            <i class="fas fa-map-marker-alt"></i> Lower Parel, Mumbai | <i class="fas fa-calendar"></i> 2024
+                        </div>
+                    </div>
+                </div>
+
+                <!-- More Residential Projects -->
+                <div class="portfolio-item" data-category="residential">
+                    <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="portfolio-content">
+                        <h3>Minimalist Apartment</h3>
+                        <p>Clean, uncluttered design that maximizes space and light in a compact urban apartment.</p>
+                        <div style="margin-top: 1rem; color: var(--primary-color); font-size: 0.9rem;">
+                            <i class="fas fa-map-marker-alt"></i> Worli, Mumbai | <i class="fas fa-calendar"></i> 2023
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="residential renovation">
+                    <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="portfolio-content">
+                        <h3>Traditional Home Makeover</h3>
+                        <p>Blending traditional elements with modern functionality in a heritage home renovation.</p>
+                        <div style="margin-top: 1rem; color: var(--primary-color); font-size: 0.9rem;">
+                            <i class="fas fa-map-marker-alt"></i> Fort, Mumbai | <i class="fas fa-calendar"></i> 2023
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="residential">
+                    <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1567767292278-a4f21aa2d36e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="portfolio-content">
+                        <h3>Luxury Penthouse</h3>
+                        <p>Sophisticated penthouse design with panoramic city views and premium finishes throughout.</p>
+                        <div style="margin-top: 1rem; color: var(--primary-color); font-size: 0.9rem;">
+                            <i class="fas fa-map-marker-alt"></i> Malabar Hill, Mumbai | <i class="fas fa-calendar"></i> 2024
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Commercial and Renovation Projects -->
+                <div class="portfolio-item" data-category="commercial renovation">
+                    <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="portfolio-content">
+                        <h3>Modern Co-working Space</h3>
+                        <p>Flexible and inspiring co-working environment designed to foster creativity and collaboration.</p>
+                        <div style="margin-top: 1rem; color: var(--primary-color); font-size: 0.9rem;">
+                            <i class="fas fa-map-marker-alt"></i> Andheri, Mumbai | <i class="fas fa-calendar"></i> 2024
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="residential">
+                    <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1484301548518-d0e0a5db0fc8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="portfolio-content">
+                        <h3>Family Entertainment Room</h3>
+                        <p>Multi-functional entertainment space perfect for family gatherings and relaxation.</p>
+                        <div style="margin-top: 1rem; color: var(--primary-color); font-size: 0.9rem;">
+                            <i class="fas fa-map-marker-alt"></i> Kandivali, Mumbai | <i class="fas fa-calendar"></i> 2023
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="commercial">
+                    <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="portfolio-content">
+                        <h3>Medical Clinic Interior</h3>
+                        <p>Calming and professional medical facility design that puts patients at ease.</p>
+                        <div style="margin-top: 1rem; color: var(--primary-color); font-size: 0.9rem;">
+                            <i class="fas fa-map-marker-alt"></i> Dadar, Mumbai | <i class="fas fa-calendar"></i> 2024
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Client Testimonials -->
+            <section style="margin-top: 80px; background: var(--bg-light); padding: 60px 30px; border-radius: var(--border-radius);">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-subtitle">Real feedback from real clients about their experience with us</p>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div style="color: var(--primary-color); font-size: 2rem; margin-bottom: 1rem;">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p style="font-style: italic; margin-bottom: 1.5rem;">"Mahavir Interior transformed our apartment beyond our wildest dreams. Their attention to detail and understanding of our lifestyle made all the difference."</p>
+                        <div style="color: var(--text-dark); font-weight: 600;">- Priya & Raj Sharma</div>
+                        <div style="color: var(--text-light); font-size: 0.9rem;">Bandra Residence</div>
+                    </div>
+                    <div class="service-card">
+                        <div style="color: var(--primary-color); font-size: 2rem; margin-bottom: 1rem;">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p style="font-style: italic; margin-bottom: 1.5rem;">"Professional, creative, and delivered on time. Our new office space has significantly improved our team's productivity and client impressions."</p>
+                        <div style="color: var(--text-dark); font-weight: 600;">- Amit Kumar</div>
+                        <div style="color: var(--text-light); font-size: 0.9rem;">Tech Solutions CEO</div>
+                    </div>
+                    <div class="service-card">
+                        <div style="color: var(--primary-color); font-size: 2rem; margin-bottom: 1rem;">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p style="font-style: italic; margin-bottom: 1.5rem;">"The renovation of our restaurant was seamless. The design perfectly captures our brand while creating a welcoming atmosphere for our customers."</p>
+                        <div style="color: var(--text-dark); font-weight: 600;">- Meera Joshi</div>
+                        <div style="color: var(--text-light); font-size: 0.9rem;">Restaurant Owner</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Project Stats -->
+            <section style="margin-top: 80px;">
+                <h2 class="section-title">Project Achievements</h2>
+                <div class="stats">
+                    <div class="stat">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">25+</div>
+                        <div class="stat-label">Awards Won</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Inspired by Our Work?</h2>
+            <p>Let's create something amazing together for your space</p>
+            <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Mahavir Interior</h3>
+                    <p>Transforming spaces with creativity, functionality, and timeless elegance since 2008.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Residential Design</a></li>
+                        <li><a href="#">Commercial Spaces</a></li>
+                        <li><a href="#">Space Planning</a></li>
+                        <li><a href="#">Consultation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                        <p><i class="fas fa-envelope"></i> info@mahavir-interior.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mahavir Interior. All rights reserved. | Website created by <a href="#" style="color: var(--secondary-color); text-decoration: none;">Saai Sujit Chintala</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
