@@ -6,3 +6,5 @@ This project provides a dashboard that visualizes Tesla's and Gamestop's stock p
 **Features**
 Stock Price Visualization: A graph showing Tesla's and Gamestops's stock price trend over time.
 Revenue Visualization: A graph illustrating Tesla's and Gamestop's revenue growth over different periods.
+
+**Testing**
