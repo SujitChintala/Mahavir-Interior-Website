@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Mahavir Interior</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Mahavir Interior</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Ready to transform your space? Let's discuss your vision and bring it to life</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="page-content">
+        <div class="container">
+            <div class="contact-content">
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h2 style="margin-bottom: 1.5rem; color: var(--text-dark);">Get Free Consultation</h2>
+                    <p style="margin-bottom: 2rem; color: var(--text-light);">Fill out the form below and we'll get back to you within 24 hours to discuss your project.</p>
+                    
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="project-type">Project Type</label>
+                            <select id="project-type" name="project-type" style="width: 100%; padding: 12px 15px; border: 2px solid var(--border-light); border-radius: var(--border-radius); font-family: var(--font-secondary); font-size: 1rem;">
+                                <option value="">Select Project Type</option>
+                                <option value="residential-new">New Residential Design</option>
+                                <option value="residential-renovation">Residential Renovation</option>
+                                <option value="commercial-new">New Commercial Space</option>
+                                <option value="commercial-renovation">Commercial Renovation</option>
+                                <option value="consultation">Design Consultation</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget">Budget Range</label>
+                            <select id="budget" name="budget" style="width: 100%; padding: 12px 15px; border: 2px solid var(--border-light); border-radius: var(--border-radius); font-family: var(--font-secondary); font-size: 1rem;">
+                                <option value="">Select Budget Range</option>
+                                <option value="under-5">Under ₹5 Lakhs</option>
+                                <option value="5-10">₹5 - ₹10 Lakhs</option>
+                                <option value="10-25">₹10 - ₹25 Lakhs</option>
+                                <option value="25-50">₹25 - ₹50 Lakhs</option>
+                                <option value="50-plus">₹50 Lakhs+</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="timeline">Project Timeline</label>
+                            <select id="timeline" name="timeline" style="width: 100%; padding: 12px 15px; border: 2px solid var(--border-light); border-radius: var(--border-radius); font-family: var(--font-secondary); font-size: 1rem;">
+                                <option value="">Select Timeline</option>
+                                <option value="immediate">Start Immediately</option>
+                                <option value="1-month">Within 1 Month</option>
+                                <option value="3-months">Within 3 Months</option>
+                                <option value="6-months">Within 6 Months</option>
+                                <option value="flexible">Flexible Timeline</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Project Details *</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your project, space details, style preferences, and any specific requirements..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info-section">
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h4>Call Us</h4>
+                        <p>+91 98765 43210</p>
+                        <p style="font-size: 0.9rem; color: var(--text-light);">Mon - Sat: 9:00 AM - 7:00 PM</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email Us</h4>
+                        <p>info@mahavir-interior.com</p>
+                        <p style="font-size: 0.9rem; color: var(--text-light);">We'll respond within 24 hours</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>Visit Our Studio</h4>
+                        <p>123 Design Street,<br>Bandra West, Mumbai - 400050</p>
+                        <p style="font-size: 0.9rem; color: var(--text-light);">By appointment only</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i class="fas fa-clock"></i>
+                        <h4>Business Hours</h4>
+                        <p>Monday - Friday: 9:00 AM - 7:00 PM<br>
+                           Saturday: 10:00 AM - 5:00 PM<br>
+                           Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Section -->
+            <section style="margin-top: 80px;">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Common questions about our services and process</p>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h4 style="color: var(--primary-color); margin-bottom: 1rem;">How long does a typical project take?</h4>
+                        <p>Project timelines vary based on scope and complexity. Residential projects typically take 6-12 weeks, while commercial projects may take 8-16 weeks. We'll provide a detailed timeline during consultation.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <h4 style="color: var(--primary-color); margin-bottom: 1rem;">Do you provide 3D visualizations?</h4>
+                        <p>Yes! We create detailed 3D renderings and virtual walkthroughs for all our projects, so you can visualize your space before we begin the transformation.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <h4 style="color: var(--primary-color); margin-bottom: 1rem;">What's included in your design service?</h4>
+                        <p>Our full-service includes consultation, space planning, design development, 3D visualization, material selection, project management, and installation supervision.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <h4 style="color: var(--primary-color); margin-bottom: 1rem;">Do you work outside Mumbai?</h4>
+                        <p>While we're based in Mumbai, we do take on projects in surrounding areas and other major cities. Please contact us to discuss your location and project requirements.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <h4 style="color: var(--primary-color); margin-bottom: 1rem;">What is your payment structure?</h4>
+                        <p>We typically work with a 30% advance, 40% at mid-project milestone, and 30% on completion. Payment terms can be customized based on project scope and timeline.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <h4 style="color: var(--primary-color); margin-bottom: 1rem;">Do you offer post-completion support?</h4>
+                        <p>Absolutely! We provide a 1-year warranty on our work and offer ongoing support for any adjustments or maintenance needs that may arise.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Map Section -->
+            <section style="margin-top: 80px;">
+                <h2 class="section-title">Find Us</h2>
+                <div style="background: var(--bg-light); padding: 3rem; border-radius: var(--border-radius); text-align: center;">
+                    <div style="background: var(--gradient-primary); color: white; padding: 3rem; border-radius: var(--border-radius); margin-bottom: 2rem;">
+                        <h3 style="color: white; margin-bottom: 1rem;">Visit Our Design Studio</h3>
+                        <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">Schedule an appointment to visit our studio and see our latest designs, material samples, and get personalized consultation.</p>
+                        <a href="tel:+919876543210" class="btn btn-secondary" style="background: white; color: var(--primary-color);">Schedule Visit</a>
+                    </div>
+                    <div style="color: var(--text-light);">
+                        <p><i class="fas fa-map-marker-alt" style="color: var(--primary-color); margin-right: 0.5rem;"></i> 123 Design Street, Bandra West, Mumbai - 400050</p>
+                        <p><i class="fas fa-directions" style="color: var(--primary-color); margin-right: 0.5rem;"></i> Near Bandra Railway Station, opposite Shoppers Stop</p>
+                        <p><i class="fas fa-car" style="color: var(--primary-color); margin-right: 0.5rem;"></i> Parking available</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Mahavir Interior</h3>
+                    <p>Transforming spaces with creativity, functionality, and timeless elegance since 2008.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Residential Design</a></li>
+                        <li><a href="#">Commercial Spaces</a></li>
+                        <li><a href="#">Space Planning</a></li>
+                        <li><a href="#">Consultation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                        <p><i class="fas fa-envelope"></i> info@mahavir-interior.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mahavir Interior. All rights reserved. | Website created by <a href="#" style="color: var(--secondary-color); text-decoration: none;">Saai Sujit Chintala</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
